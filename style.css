@@ -1,0 +1,152 @@
+
+            html {
+              scroll-behavior: smooth;
+            }
+
+            body {
+              font-family: Poppins, sans-serif;
+              background-color: #1a1a1a;
+              color: white;
+              margin: 0;
+              padding: 20px;
+            }
+
+            .container {
+              width: 90%;
+              margin: auto;
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+            }
+            h1 {
+              color: #ff6600;
+              text-align: center;
+              font-size: 50px;
+              background: -webkit-linear-gradient(#eee, #333);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .title {
+              font-size: 80px;
+            }
+
+
+            .badge , .basmalah{
+              font-size: 15px;
+              font-weight: bolder;
+              border: #ff6600 solid;
+              border-radius: 50px;
+              padding: 3px 20px;
+              background-color: #1a1a1a;
+              color: #ff6600;
+              width: min-content;
+              align-self: center;
+              margin-bottom: -20px;
+              margin-top: 50px;
+            }
+
+            .program {
+              margin-bottom: 20px;
+            }
+            .program h2 {
+              background-color: #333;
+              padding: 10px;
+              border: 5px dotted #ff6600;
+              border-radius: 5px;
+              margin: 0;
+              font-size: 70px;
+            }
+            .program h2:hover {
+              text-decoration: underline;
+            }
+
+            .nav-menu {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+              gap: 15px;
+
+              margin-bottom: 50px;
+            }
+
+            nav ul li a {
+              text-decoration: none;
+              color: white;
+              font-weight: bold;
+              cursor: pointer;
+            }
+
+            .program ul {
+              list-style: none;
+              padding: 0;
+            }
+            .program li {
+              background-color: #4d4d4d;
+              margin: 5px 0;
+              padding: 10px;
+              border-radius: 5px;
+            }
+
+            .program li:hover {
+              background-color: #2e2e2e;
+            }
+
+            .point{
+              font-size: 30px;
+            }
+            .footer {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              margin-top: 15px;
+              border-top: 1px solid #ff6600;
+              padding-top: 15px;
+              padding-bottom: 30px;
+            }
+
+              /* canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  } */
+
+            /* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+            /** {
+        scrollbar-width: thin;
+        scrollbar-color: #FF6600 #4A4A4A;
+      }*/
+
+            /* Chrome, Edge and Safari */
+            *::-webkit-scrollbar {
+              height: 10px;
+              width: 10px;
+            }
+            *::-webkit-scrollbar-track {
+              border-radius: 5px;
+              background-color: #4a4a4a;
+            }
+
+            *::-webkit-scrollbar-track:hover {
+              background-color: #1a1a1a;
+            }
+
+            *::-webkit-scrollbar-track:active {
+              background-color: #1a1a1a;
+            }
+
+            *::-webkit-scrollbar-thumb {
+              border-radius: 5px;
+              background-color: #ff6600;
+            }
+
+            *::-webkit-scrollbar-thumb:hover {
+              background-color: #ff6600;
+            }
+
+            *::-webkit-scrollbar-thumb:active {
+              background-color: #ff6600;
+            }
+
+
