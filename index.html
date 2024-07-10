@@ -5,157 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
 
     <title>Program Bahasa Arab</title>
-    <style>
-            html {
-              scroll-behavior: smooth;
-            }
 
-            body {
-              font-family: Poppins, sans-serif;
-              background-color: #1a1a1a;
-              color: white;
-              margin: 0;
-              padding: 20px;
-            }
-
-            .container {
-              max-width: 800px;
-              margin: auto;
-              display: flex;
-              flex-direction: column;
-              gap: 5px;
-            }
-            h1 {
-              color: #ff6600;
-              text-align: center;
-              background: -webkit-linear-gradient(#eee, #333);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-            }
-            .title {
-              font-size: 45px;
-            }
-
-            .badge {
-              font-size: 15px;
-              font-weight: bolder;
-              border: #ff6600 solid;
-              border-radius: 50px;
-              padding: 3px 20px;
-              background-color: #1a1a1a;
-              color: #ff6600;
-              width: min-content;
-              align-self: center;
-              margin-bottom: -20px;
-              margin-top: 50px;
-            }
-
-            .program {
-              margin-bottom: 20px;
-            }
-            .program h2 {
-              background-color: #333;
-              padding: 10px;
-              border: 5px dotted #ff6600;
-              border-radius: 5px;
-              margin: 0;w
-            }
-            .program h2:hover {
-              text-decoration: underline;
-            }
-
-            .nav-menu {
-              display: flex;
-              flex-direction: row;
-              align-items: center;
-              justify-content: center;
-              gap: 15px;
-
-              margin-bottom: 50px;
-            }
-
-            nav ul li a {
-              text-decoration: none;
-              color: white;
-              font-weight: bold;
-            }
-
-            .program ul {
-              list-style: none;
-              padding: 0;
-            }
-            .program li {
-              background-color: #4d4d4d;
-              margin: 5px 0;
-              padding: 10px;
-              border-radius: 5px;
-            }
-
-            .program li:hover {
-              background-color: #2e2e2e;
-            }
-
-            .footer {
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              flex-direction: column;
-              margin-top: 15px;
-              border-top: 1px solid #ff6600;
-              padding-top: 15px;
-              padding-bottom: 30px;
-            }
-
-            /* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
-            /** {
-        scrollbar-width: thin;
-        scrollbar-color: #FF6600 #4A4A4A;
-      }*/
-
-            /* Chrome, Edge and Safari */
-            *::-webkit-scrollbar {
-              height: 10px;
-              width: 10px;
-            }
-            *::-webkit-scrollbar-track {
-              border-radius: 5px;
-              background-color: #4a4a4a;
-            }
-
-            *::-webkit-scrollbar-track:hover {
-              background-color: #1a1a1a;
-            }
-
-            *::-webkit-scrollbar-track:active {
-              background-color: #1a1a1a;
-            }
-
-            *::-webkit-scrollbar-thumb {
-              border-radius: 5px;
-              background-color: #ff6600;
-            }
-
-            *::-webkit-scrollbar-thumb:hover {
-              background-color: #ff6600;
-            }
-
-            *::-webkit-scrollbar-thumb:active {
-              background-color: #ff6600;
-            }
-    </style>
   </head>
+  
   <body>
+        <!-- <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div> -->
+  
     <div class="container custom_canvas">
-      <span class="badge">EVALUASI</span>
+      <!-- <span class="badge">EVALUASI</span> -->
+      
+      <span class="basmalah">Bismillahirrohmanirrohim</span>
       <h1>
         <span class="title">PROGRAM BAHASA ARAB</span><br />TAHUN AJARAN
-        2023/2024
+        2024/2025
       </h1>
 
       <nav class="program">
@@ -164,7 +35,7 @@
             <a href="#harian" id="confetti">Harian</a>
           </li>
           <li>
-            <a href="#pekanan" id="confetti2">Pekanan</a>
+            <a href="#pekanan" id="confetti">Pekanan</a>
           </li>
           <li>
             <a href="#bulanan" id="confetti">Bulanan</a>
@@ -178,28 +49,28 @@
       <div class="program" id="harian">
         <h2>HARIAN</h2>
         <ul>
-          <li>Ilqa dan hifdzul mufrodat</li>
-          <li>Membuat jumlah mufidah</li>
-          <li>Istima' audio nathiq arabiya</li>
-          <li>Jasus/jasusah (mata-mata program Bahasa Arab)</li>
-          <li>Iqab/uqubah bagi yang melanggar</li>
+          <li class="point">Ilqa dan <strong>hifdzul mufrodat</strong></li>
+          <li class="point">Membuat <strong>jumlah mufidah</strong></li>
+          <li class="point">Istima' <strong>audio nathiq arabiyah</strong></li>
+          <li class="point"><strong>Jasus/jasusah</strong> (mata-mata program Bahasa Arab)</li>
+          <li class="point"><strong>Iqab/uqubah</strong> bagi yang melanggar</li>
         </ul>
       </div>
 
       <div class="program" id="pekanan">
         <h2>PEKANAN</h2>
         <ul>
-          <li>Takrir mufrodat masing-masing</li>
+          <li class="point"><strong>Takrir mufrodat</strong> secara mandiri / masing-masing</li>
         </ul>
       </div>
 
       <div class="program" id="bulanan">
         <h2>BULANAN</h2>
         <ul>
-          <li>Musyahadah al-Aflam al-Arabiyah</li>
-          <li>Quiz/lubuh/musabaqah/khitob</li>
-          <li>
-            Pemberian penghargaan santri bidang Bahasa Arab terbaik di jenjang
+          <li class="point"><strong>Musyahadah</strong> al-Aflam al-Arabiyah</li>
+          <li class="point">Quiz/lu'bah/<strong>musabaqah</strong>/khitobah</li>
+          <li class="point">
+            Pemberian <strong>penghargaan santri bidang Bahasa Arab terbaik</strong> di jenjang
             kelas 10, 11, dan 12
           </li>
         </ul>
@@ -208,43 +79,53 @@
       <div class="program" id="tahunan">
         <h2>TAHUNAN</h2>
         <ul>
-          <li>
-            Mengikuti lomba OBA (Olimpiade Bahasa Arab) baik tingkat kabupaten,
+          <li class="point">
+            Mengikuti lomba <strong>OBA (Olimpiade Bahasa Arab)</strong> baik tingkat kabupaten,
             provinsi sampai tembus ke tingkat nasional
           </li>
-          <li>Menyiapkan kader terbaik untuk diikut sertakan dalam lomba</li>
-          <li>Memviralkan dalam media massa</li>
+          <li class="point">Menyiapkan <strong>kader terbaik</strong> untuk diikut sertakan dalam lomba</li>
+          <li class="point">Memviralkan dalam media massa</li>
         </ul>
       </div>
+
+
+      <div class="program" id="juara">
+        <h2>juara 1 Olimpiade Bahasa Arab tingkat provinsi Jawa Barat</h2>
+        <ul>
+          <li><iframe width="700" height="500" src="https://www.youtube.com/watch?v=omXYdBLy5j8?autoplay=1"></iframe></li>
+        </ul>
+      </div>
+
+
 
       <div class="footer"></div>
 
       <div class="program" id="problems">
         <h2>PROBLEMS</h2>
         <ul>
-          <li>
-            sedikitinya kosakata dan ungkapan-ungkapan dalam bahasa arab yang
+          <li class="point">
+            sedikitinya <strong>kosakata</strong> dan <strong>ungkapan-ungkapan</strong> dalam bahasa arab yang
             dihapal
           </li>
-          <li>lingkungan yang tidak mendukkung</li>
-          <li>tidak bisa fokus</li>
-          <li>kurang interaksi / praktek</li>
-          <li>jam belajar yang sangat sedikit</li>
-          <li>kurang penggunaan media dalam istima'</li>
+          <li class="point"><strong>lingkungan</strong> yang tidak mendukung</li>
+          <li class="point">tidak bisa <strong>fokus</strong></li>
+          <li class="point">kurang interaksi / <strong>praktek</strong></li>
+          <li class="point"><strong>jam belajar</strong> yang sangat sedikit</li>
+          <li class="point"><strong>kurang penggunaan media</strong> dalam istima'</li>
         </ul>
       </div>
       <div class="program" id="harapan">
         <h2>HARAPAN</h2>
         <ul>
-          <li>
-            ada lingkungan / ruangan bahasa (terkhusus bhs arab)
+          <li class="point">
+            ada lingkungan / <strong>ruang bahasa</strong> (terkhusus bahasa arab)
             <br />lingkungan umum wajib berbahasa inggris , sedangkan ruangan
             bahasa khusus bhs arab saja
           </li>
-          <li>ada media untuk istima' (layar , speaker , rekaman)</li>
-          <li>kaderisasi untuk pembina bhs bagi adek adek kelasnya</li>
+          <li class="point">ada media untuk <strong>istima'</strong> (layar , speaker , rekaman)</li>
+          <li class="point"><strong>kaderisasi</strong> untuk pembina bahasa bagi adik-adik kelasnya</li>
         </ul>
-      </div>
+      <!-- </div> -->
 
       <div class="footer">
         <div class="footer-text">I Love Arabic Language</div>
@@ -252,36 +133,11 @@
       </div>
     </div>
 
-    <!-- <script>
-      const acc = document.getElementsByClassName("accordion");
-      for (let i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          const panel = this.nextElementSibling;
-          if (panel.style.display === "block") {
-            panel.style.display = "none";
-          } else {
-            panel.style.display = "block";
-          }
-        });
-      }
-    </script> -->
 
+
+    <!-- <canvas id="starCanvas"></canvas> -->
     <script src="https://cdn.jsdelivr.net/npm/js-confetti@0.9.0/dist/js-confetti.browser.js"></script>
+    <script src="script.js"></script>
 
-    <script>
-      const canvas = document.getElementById("custom_canvas");
-      const button = document.getElementById("confetti");
-
-      const jsConfetti = new JSConfetti({ canvas });
-
-      setTimeout(() => {
-        jsConfetti.addConfetti();
-      }, 500);
-
-      button.addEventListener("click", () => {
-        jsConfetti.addConfetti();
-      });
-    </script>
   </body>
 </html>
